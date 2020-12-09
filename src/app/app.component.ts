@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'canvas-play';
+export class AppComponent implements AfterViewInit {
+  constructor(){
+  }
+  ngAfterViewInit(): void {
+
+  }
+
 }
